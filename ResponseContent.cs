@@ -38,7 +38,7 @@ namespace Sample.ExternalIdentities
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string jobTitle { get; set; }
 
-        //[JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        //public string extension_CustomClaim { get; set; }
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public string extension_Roles { get; set; }
     }
 }
